@@ -23,6 +23,10 @@ const HomeScreen = ({ navigation }) => {
         title="Squares Demo"
         onPress={() => navigation.navigate("Square")}
       />
+      <Button
+        title="Text Demo"
+        onPress={() => navigation.navigate("Text")}
+      />
 
       {/* comes with predefined styling */}
       {/* <Button title="Demo" onPress={() => console.log("button 1 pressed")} /> */}
